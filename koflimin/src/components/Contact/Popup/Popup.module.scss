@@ -1,0 +1,49 @@
+.popup {    
+    position: fixed;
+    
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    top: 0;
+    left: 0;
+    z-index: 20178;
+
+    &Body { 
+        min-height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+    }
+    &Content {  
+        max-width: 280px;
+        background-color: #FFFFFF;
+        border-radius: 8px;
+        padding: 30px 30px;
+    }
+    &Checkbox { 
+        margin: 0 auto;
+    }
+    &Slogan {   
+        font-size: 30px;
+        font-weight: 700;
+        padding: 16px 0;
+        color: #575555;
+    }
+    &Text { 
+        font-weight: 400;
+        font-size: 16px;
+        padding-bottom: 25px;
+        color: #575555;
+    }
+    &Btn {  
+        padding: 10px 40px;
+        color: #FFFFFF;
+        background: #00BE82;
+        border-radius: 8px;
+        border: none;
+        cursor: pointer;
+    }
+
+}

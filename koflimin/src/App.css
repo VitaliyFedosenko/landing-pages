@@ -1,0 +1,13 @@
+@import '../node_modules/reset-css/sass/_reset.scss';
+
+html,
+body {  
+  font-family: 'Inter', sans-serif;
+  font-family: 'Poppins', sans-serif;
+}
+
+.App {
+  margin: 0 auto;
+  background: #FFFFFF;
+}
+

@@ -1,0 +1,38 @@
+.tos {  
+    margin: 0 36px 40px;
+    padding: 20px 28px;
+    font-family: 'Poppins', sans-serif;
+    line-height: 28px;
+}
+.title {   
+ text-align: center;
+ font-weight: 700;
+ font-size: 22px;
+ margin: 50px 0 20px;
+}
+
+.block {    
+    margin: 15px 0 25px;
+}
+
+.block li {    
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.paragraphs p {   
+    margin: 10px 0;
+}
+
+.paragraphs a { 
+    cursor: pointer;
+    color: #b35b3d;
+}
+
+.paragraphs span {  
+    font-size: 14px;
+}
+
+
+
+

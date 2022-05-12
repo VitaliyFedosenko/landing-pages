@@ -1,0 +1,89 @@
+.footer {  
+    width: 100%;
+    &Inner {  
+        margin: 0 auto;   
+        display: flex;
+        justify-content: space-between;
+        padding: 40px;
+        max-width: 1140px;
+    }
+    &Info { 
+        width: 351px;
+    }
+    &Rights {   
+        font-family: 'Inter', sans-serif;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 24px;
+        color: #222222;
+        padding-bottom: 16px;
+    }
+    &Location { 
+        font-family: 'Inter', sans-serif;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 20px;
+        color: #707070;
+    }
+    &Links {    
+        display: flex;
+        column-gap: 36px;
+
+    }
+    &Item { 
+        font-family: 'Inter', sans-serif;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 24px;
+        color: #222222;
+        text-decoration: none;
+    }
+
+
+}
+
+
+@media only screen and (max-width: 1024px) {   
+    .footer {  
+        
+        &Inner {  
+            flex-direction: column;
+            justify-content: unset;
+            row-gap: 32px;
+            padding: 72px 0 72px 80px;
+            max-width: none;
+        }
+        &Info { 
+            width: 348px;
+        }
+        
+        &Links {    
+            display: flex;
+            flex-direction: column;
+            row-gap: 8px;
+            column-gap: none;
+        }
+    }
+}
+
+
+@media only screen and (max-width: 767px) { 
+    .footer {  
+        &Inner {  
+            flex-direction: column;
+            justify-content: unset;
+            row-gap: 32px;
+            padding: 52px 0 52px 24px;
+            max-width: none;
+        }
+        &Info { 
+            width: 327px;
+        }
+        &Links {    
+            display: flex;
+            flex-direction: column;
+            row-gap: 8px;
+            column-gap: none;
+        }
+    }
+}

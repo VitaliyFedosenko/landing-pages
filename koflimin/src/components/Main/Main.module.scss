@@ -1,0 +1,443 @@
+.slogan { 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    &Big {  
+        text-align: center;
+        font-weight: 700;
+        font-size: 80px;
+        line-height: 95px;
+        color: #222222;
+        max-width: 815px;
+        width: 100%;
+        padding-top: 198px;
+        letter-spacing: -0.02em;
+    }
+    &Little {   
+        font-family: 'Inter', sans-serif;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 32px;
+        color: #707070;
+        margin: 24px 0 48px;
+    }
+    &Btn {  
+        font-family: 'Inter', sans-serif;
+        font-weight: 700;
+        line-height: 24px;
+        color: #FFFFFF;
+        background: #222222;
+        border-radius: 12px;
+        border: none;
+        cursor: pointer;
+        margin-bottom: 120px;
+        padding: 20px 60px;
+        font-size: 16px;
+        line-height: 24px;
+    }
+    
+}
+
+// ==============  ABOUT  ====================
+
+.about {  
+    background: #222222;
+    width: 100%;
+    padding: 120px 0 72px;
+    &Title {  
+        margin: 0 auto;
+        text-align: center;  
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 48px;
+        color: #CBEFBD;
+        width: 100%;
+        max-width: 658px;
+        padding-bottom: 100px;
+    } 
+    &Info { 
+        display: flex;
+        justify-content: center;
+        column-gap: 68px;
+    }
+    &Item { 
+        &Header {   
+            display: flex;
+            align-items: center;
+        }
+    }
+    &Theme {    
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 40px;
+        color: #FFFFFF; 
+        padding-left: 18px; 
+    }
+    &Text { 
+        font-family: 'Inter', sans-serif;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 24px;  
+        width: 100%;
+        max-width: 280px; 
+        color: #FFFFFF; 
+        margin-top: 20px;  
+    }
+}
+
+// ==============  WISEY  ====================
+
+.wisey {    
+    width: 100%;
+    &Wrapper {  
+        padding-top: 127px;
+    }
+    &Info { 
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        column-gap: 127px;
+        margin-bottom: 120px;
+        padding: 0 20px 0 0;
+    }
+
+    &Header {   
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 89px;
+    }
+    &Designation {  
+        font-weight: 500;
+        font-size: 14px;
+        color: #707070;
+        letter-spacing: 0.8px;
+        text-transform: uppercase;
+        padding-bottom: 12px;
+
+    }
+    &Title {    
+        font-weight: 700;
+        font-size: 44px;
+        line-height: 140%;  
+        color: #222222;
+        padding-bottom: 12px;
+    }
+    &Slogan {   
+        font-family: 'Inter', sans-serif;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 160%;
+        width: 100%;
+        max-width: 360px;
+        color: #707070;
+        text-align: center;
+        padding-bottom: 40px;
+    }
+    &Btn {  
+        font-family: 'Inter', sans-serif;
+        font-weight: 700;
+        color: #FFFFFF;
+        background: #222222;
+        border-radius: 12px;
+        border: none;
+        cursor: pointer;
+        padding: 20px 57px;
+        font-size: 16px;
+        line-height: 24px;
+    }
+    &Pic {  
+        img {   
+            width: 653px;
+        }
+    }
+    &Items { 
+        display: flex;
+        flex-direction: column;   
+        row-gap: 44px;
+    }
+
+    &Item { 
+        width: 100%;
+        max-width: 359px;
+        &Header {   
+            display: flex;
+            align-items: center;
+            padding-bottom: 28px;
+            img {   
+                width: 40px;
+            }
+        }
+    }
+    &Description {  
+        font-weight: 600;
+        line-height: 135%;
+        font-size: 20px;
+        color: #000000;
+        padding-left: 20px;
+        width: 100%;
+        max-width: 287px;
+    }
+    &Text { 
+        font-family: 'Inter', sans-serif;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 150%;
+        color: #595F64;
+    }
+}
+
+// ==============  CONTACT  ====================
+
+.contact { 
+    padding-top: 120px; 
+    background: #222222;
+    &Title {    
+        margin: 0 auto;
+        font-weight: 700;
+        font-size: 44px;
+        line-height: 140%;
+        text-align: center;
+        width: 100%;
+        max-width: 636px;
+        color: #FFFFFF;
+        padding-bottom: 44px;
+    }
+}
+
+@media only screen and (max-width: 1024px) {   
+    .slogan { 
+        &Big {  
+            font-size: 44px;
+            line-height: 52px;
+            max-width: 570px;
+            padding-top: 144px;
+        }
+        &Little {   
+            margin: 24px 0 44px;
+        }
+        &Btn {  
+            margin-bottom: 100px;
+            padding: 20px 60px;
+        }
+        
+    }
+    
+    // ==============  ABOUT  ====================
+    
+    .about {  
+        padding: 72px 0;
+        &Title {  
+            font-size: 26px;
+            line-height: 36px;
+            max-width: 525px;
+            padding-bottom: 52px;
+        } 
+        &Info { 
+            column-gap: 41px;
+        }
+        
+        &Theme {    
+            font-weight: 700;
+            font-size: 20px;
+            line-height: 28px;
+        }
+        &Text {  
+            max-width: 203px;  
+            margin-top: 16px;  
+        }
+    }
+    
+    // ==============  WISEY  ====================
+    
+    .wisey {    
+
+        &Wrapper {  
+            padding-top: 72px;
+        }
+        &Info { 
+            padding: 0;
+            column-gap: 44px;
+            margin-bottom: 72px;
+        }
+    
+        &Header {   
+            margin-bottom: 52px;
+        }
+        
+        &Title {    
+            font-size: 28px;
+        }
+        &Slogan {   
+            font-size: 16px;
+            line-height: 150%;
+            max-width: 343px;
+            padding-bottom: 30px;
+        }
+        
+        &Pic {  
+            img {   
+                width: 350px;
+            }
+        }
+        &Items {  
+            row-gap: 20px;
+        }
+    
+        &Item { 
+            max-width: 280px;
+            &Header {   
+                padding-bottom: 16px;
+                img {   
+                    width: 36px;
+                }
+            }
+        }
+        &Description {  
+            font-size: 18px;
+            max-width: 208px;
+        }
+        &Text { 
+            font-size: 14px;
+            line-height: 171%;
+            
+        }
+    }
+    
+    // ==============  CONTACT  ====================
+    
+    .contact { 
+        padding-top: 72px; 
+        &Title {    
+            font-size: 28px;
+            line-height: 129%;
+            max-width: 415px;
+            padding-bottom: 52px;
+        }
+    }
+}
+
+
+@media only screen and (max-width: 767px) { 
+    .slogan { 
+        &Big {  
+            font-size: 32px;
+            line-height: 40px;
+            max-width: 303px;
+            padding-top: 92px;
+            letter-spacing: -0.05em;
+        }
+        &Little {   
+            font-size: 16px;
+            line-height: 24px;
+            margin: 16px 0 32px;
+            width: 100%;
+            max-width: 320px;
+            text-align: center;
+        }
+        &Btn {  
+            margin-bottom: 52px;
+            padding: 20px 50px;
+        }
+        
+    }
+    
+    // ==============  ABOUT  ====================
+    
+    .about {  
+        padding: 52px 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        &Title {  
+            font-size: 26px;
+            line-height: 32px;
+            max-width: 327px;
+            padding-bottom: 60px;
+        } 
+        &Info { 
+            flex-direction: column;
+            column-gap: unset;
+            row-gap: 36px;
+        }
+        &Item { 
+            display: flex;
+            flex-direction: column;
+            // justify-content: center;
+            align-items: center;
+            // &Header {   
+            //     justify-content: center;
+            // }
+        }
+        &Theme {    
+            font-size: 20px;
+            line-height: 28px;
+        }
+        &Text { 
+            margin-top: 16px;
+            text-align: center; 
+            max-width: 327px;
+            width: 100%; 
+        }
+    }
+    
+    // ==============  WISEY  ====================
+    
+    .wisey {    
+        &Wrapper {  
+            padding-top: 52px;
+        }
+        &Info { 
+            padding: 0;
+            flex-direction: column;
+            column-gap: none;
+            row-gap: 52px;
+            margin-bottom: 52px;
+        }
+        &Header {   
+            margin-bottom: 52px;
+        }
+        &Title {    
+            font-size: 28px;
+        }
+        &Slogan {      
+            font-size: 16px;
+            line-height: 150%;
+            max-width: 300px;
+            padding-bottom: 30px;
+        }
+        &Btn {  
+            padding: 20px 47px;
+        }
+        &Pic {  
+            img {   
+                width: 335px;
+            }
+        }
+        &Items { 
+            row-gap: 32px;
+        }
+        &Item { 
+            max-width: 325px;
+        }
+        &Description {  
+            max-width: 238px;
+        }
+        &Text { 
+            font-size: 18px;
+            line-height: 150%;
+        }
+    }
+    
+    // ==============  CONTACT  ====================
+    
+    .contact { 
+        padding-top: 52px; 
+        &Title {    
+            font-size: 28px;
+            line-height: 129%;
+            max-width: 328px;
+        }
+    }
+    
+}

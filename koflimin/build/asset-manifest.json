@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/static/css/main.1220c4ea.css",
+    "main.js": "/static/js/main.4b2d3abf.js",
+    "static/media/wisey_img.png": "/static/media/wisey_img.a09c6d2d241a8a5d30e6.png",
+    "static/media/logo.svg": "/static/media/logo.f94a524574e7dfd6ffcaa0b8c6e33d1c.svg",
+    "index.html": "/index.html",
+    "main.1220c4ea.css.map": "/static/css/main.1220c4ea.css.map",
+    "main.4b2d3abf.js.map": "/static/js/main.4b2d3abf.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1220c4ea.css",
+    "static/js/main.4b2d3abf.js"
+  ]
+}
